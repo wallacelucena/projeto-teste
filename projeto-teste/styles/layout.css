@@ -1,0 +1,218 @@
+body{
+    font: 100%/1.5 arial, verdana, sans-serif;
+}
+
+header{
+    background-color: #000000;
+    min-height: 150px;
+    text-shadow: none;
+    color: black;
+}
+footer {
+    min-height: 150px;
+    background-color: rgb(167, 158, 158);
+    color: rgb(0, 0, 0);
+}
+header a {
+    color: inherit;
+    text-decoration: none;
+    box-shadow: 5px 5px 0px white;   
+}
+
+.menu__item {
+    line-height: 3;
+    text-align: center;
+    background-color: #3a73b8;
+    color: white;
+    text-decoration: none;
+    flex-grow: 1;
+    transition: transform 0.3s linear;
+}
+
+.menu__item:hover {
+    background-color: #c20b0b ;
+    color: black;
+    transform:scale(1.08);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+header {
+    min-height: auto;
+}
+
+main {
+    min-height: 700px;
+    display: grid; 
+    
+    
+}
+
+main section{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: white;
+    background-color: #000000; 
+    text-align: justify;
+
+    
+}
+
+main aside {
+    color: white;
+    background-image: linear-gradient(
+      brown, 
+      rgb(131, 27, 131)   
+    );
+}
+
+.personagens {
+    color: white;
+    font-size:4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.personagens:hover{
+    color: #3a73b8;
+    display: auto;
+}
+
+.personagens_imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ezio_title {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    background-color: #000000;
+        
+}
+.ezio_title:hover {
+    opacity: 1;
+}
+
+.maquiavel_title {
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    background-color: #000000;
+}
+.maquiavel_title:hover {
+    opacity: 1;
+}
+
+.medici_title {
+    position: absolute;
+    top: 25%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    background-color: #000000;
+}
+.medici_title:hover {
+    opacity: 1;
+}
+
+.borgia_title {
+    position: absolute;
+    top: 25%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    background-color: #000000;
+}
+.borgia_title:hover {
+    opacity: 1;
+}
+
+.tabela_personagens{
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+}
+
+.tabela_personagens th td{
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+
+}
+
+.site-footer {
+    height: auto;
+    background-color: black;
+    padding: 32px;
+    color: white;
+    line-height: ;
+}
+
+.copyright {
+    float: left;
+    line-height: 35px;
+
+}
+
+.social {
+    float: right;
+}
+
+
+.social a {
+    width: 35px;
+    height: 35px;
+    display: block;
+    background-image: url(../images/social-icons.png);
+    text-indent: -9000px;
+    float: left;
+    margin-left: 16px;
+
+}
+
+.social_fb {
+    background-position: -156px -130px ;
+}
+.social_fb:hover {
+    background-position: -156px 0px ;
+}
+
+.social_tw {
+    background-position: -117px -130px ;
+}
+
+.social_tw:hover {
+    background-position: -117px 0 ;
+}
+
+.social_yt {
+    background-position: -546px -130px ;
+}
+
+.social_yt:hover {
+    background-position: -546px 0px ;
+}
